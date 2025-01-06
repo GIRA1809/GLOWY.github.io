@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glowy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- Contenedor del logo y título -->
+        <div class="logo-nombre">
+            <img src="img/logo.png" alt="Logo de Glowy" class="logo">
+            <img src="img/titulo.png" alt="Nombre Glowy" class="nombre">
+        </div>
+
+        <!-- Buscador -->
+        <div class="busqueda">
+            <input type="text" placeholder="Buscar productos..." class="barra-busqueda">
+            <button class="boton-busqueda">
+                <img src="img/lupa.png" alt="Buscar" class="icono-lupa">
+            </button>
+        </div>
+
+        <!-- Menú hamburguesa -->
+        <div class="menu-hamburguesa">
+            <button class="boton-menu">
+              <img src="img/menu.png"alt= "menu-desplegable" class="icono-menu">
+              
+            </button>
+            <nav class="menu-desplegable">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección principal para mostrar productos -->
+    <section class="productos">
+        <!-- Primer producto -->
+        <div class="producto">
+            <img src="img/crema1.jpg" alt="Crema antitranspirante">
+            <h2>Crema antitranspirante</h2>
+            <p>$25.000</p>
+            <!-- Enlace para ver más detalles del producto -->
+            <a href="producto.html?producto=1" class="boton">Ver más</a>
+        </div>
+
+        <!-- Segundo producto -->
+        <div class="producto">
+            <img src="images/producto2.png" alt="Producto 2">
+            <h2>Producto 2</h2>
+            <p>$30.000</p>
+            <!-- Enlace para ver más detalles del producto -->
+            <a href="producto.html?producto=2" class="boton">Ver más</a>
+        </div>
+    </section>
+</main>
+</body>
+</html>

@@ -1,0 +1,171 @@
+/* General del header */
+header {
+  display: flex;
+  justify-content: space-between; /* Elementos distribuidos */
+  align-items: center; /* Centrado vertical */
+  background-color: #003366;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+/* Logo y nombre */
+.logo-nombre {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 60px; /* Tamaño ajustado del logo */
+  margin-right: 10px;
+}
+
+.nombre {
+  height: 40px;
+}
+
+/* Estilo del buscador */
+.busqueda {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Separación entre input y botón */
+}
+
+.barra-busqueda {
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  width: 250px; /* Tamaño del campo de búsqueda */
+}
+
+.boton-busqueda {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.icono-lupa {
+  width: 25px;
+  height: 25px;
+}
+
+/* Menú hamburguesa */
+.menu-hamburguesa {
+  position: relative;
+}
+
+.boton-menu {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20px;
+  padding: 5px;
+}
+
+.icono-menu {
+  width: 25px; /* Ajusta el tamaño del ícono del menú */
+  height: 25px;
+}
+
+.linea {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 2px 0;
+}
+
+.menu-desplegable {
+  display: none;
+  position: absolute;
+  top: 30px; /* Ajusta este valor según sea necesario */
+  right: 0;
+  background-color: #003366;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu-desplegable ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+}
+
+.menu-desplegable li {
+  margin: 5px 0;
+}
+
+.menu-desplegable a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu-hamburguesa:hover .menu-desplegable {
+  display: block;
+}
+
+/* Sección de productos */
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.producto {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.producto img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.producto h2 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.producto p {
+  color: #ff9800; /* Naranja para precios */
+  font-weight: bold;
+}
+
+/* Detalles del producto */
+.detalle-producto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.imagen-detalle {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.boton {
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px 5px; /* Añadido margen entre los botones */
+}
+
+.boton:hover {
+  background-color: #e68900;
+}
